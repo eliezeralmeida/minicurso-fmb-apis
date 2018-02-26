@@ -1,0 +1,21 @@
+{
+  "name": "eliezer/minicurso-fmb",
+  "description": "",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Eliezer Almeida",
+      "email": "eliezeralmeidago@hotmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Api\\": ["src/Api/"]
+    }
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "slim/slim": "3.9.0"
+  }
+}
